@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flutodo</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    {% block content %}
+
+    {% endblock content %}
+</div>
+</body>
+</html>
